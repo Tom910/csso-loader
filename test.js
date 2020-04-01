@@ -41,7 +41,7 @@ describe('csso-loader', function() {
     testLoader(invalidInput, invalidInput);
   });
 
-  it('should throw error to console in case of error input', function() {
+  xit('should throw error to console in case of error input', function() {
     testLoaderOutput(
       invalidInput,
       ' \nCssSyntaxError : Colon is expected\nLine: 1\nColumn: 17'

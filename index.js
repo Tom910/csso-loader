@@ -55,7 +55,7 @@ module.exports = function(source) {
     ].join('\n'));
   }
 
-  if (result) {
+  if (result && result.css) {
     return result.css;
   }
 
